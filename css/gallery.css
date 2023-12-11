@@ -1,0 +1,28 @@
+#gallery
+{
+    max-width: 1150px;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+img
+{
+    width:60%;
+    height:60%;
+}
+main
+{ 
+  padding: 0rem;
+  background-color: hsl(65, 39%, 58%);
+    
+}
+
+@media(max-width: 600px)
+{
+  #gallery{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

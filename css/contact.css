@@ -1,0 +1,28 @@
+input[type=text], input[type=email], input[type=submit], select, option
+{
+    display:block;
+    width:50%;
+    height:2em;
+}
+main
+{
+    background-color: hsl(62, 94%, 60%);
+}
+
+form
+{
+    font: normal normal normal 12px/1.5 Verdana ,Arial, Helvetica, sans-serif;
+}
+
+select, option, label, legend
+{
+    font-size: 2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+legend
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+table, th, td {
+    border:1px solid black;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;}
+
+.mainimg
+{ 
+    border: 5px solid black; 
+    width: 80%;
+    height: 90%; 
+}
+    
+#AbsoluteImage{
+    height:100%;
+    width:100%;
+}
+
+#AbsoluteImage{
+    float:left;
+    clip-path : polygon(0px 0px, 47.78% 28px, 67.54% 92.17%, 12.82% 95.43%);
+    shape-outside: polygon(0px 0px, 12.1% 19px, 64.42% 86.9%, 69.04% 108.07%, 2.65% 104.07%);
+    shape-margin: 12px;
+}
+
+q{ 
+    font-family: cursive; 
+    font-style: italic;  
+    font-size: larger; 
+}
